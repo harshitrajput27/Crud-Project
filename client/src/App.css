@@ -1,0 +1,48 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Information{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+
+}
+.Information input{
+  width: 100px;
+  height: 20ox;
+  padding-left: 10px;
+  margin-top: 5px;
+}
+.Information button{
+  margin-top: 10px;
+  background-color: yellow;
+}
+.employees button{
+  display: flex;
+  flex-direction: column;
+  
+  margin-top: 5px;
+  background-color: aqua;
+
+  
+}
+.employees {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+.employeeSystem {
+  width: 60%;
+  height: 3%;
+  background-image: linear-gradient(to right, #FFA384, #74BDCB);
+  border: 1px solid black;
+  align-items: center;
+  justify-items: center;
+  margin-top: 10px;
+}
